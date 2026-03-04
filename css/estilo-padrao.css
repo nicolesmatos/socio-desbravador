@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --fundo-verde: #c3e6c3;
+    --titulo-verde-escuro:#264A2C;
+}
+
+h1,h2,h3,p{
+    font-family: inter;
+}
