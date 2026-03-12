@@ -29,6 +29,7 @@ span.material-symbols-outlined.voltar {
     font-size: 35px;
     color: var(--titulo-verde-escuro);
     cursor: pointer;
+    margin: 2% 4% 10% 5%;
 }
 
 
@@ -54,13 +55,14 @@ span.material-symbols-outlined.voltar {
 .container-geral {
     background-color: #ffffff;
     position: absolute;
-    top: 52%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 10px 15px rgba(0, 0, 0, 0.08);
-    padding: 5%;
+    /* padding: 5%; */
+    padding: 15% 5% 10% 5%;
     height: 75%;
 }
 
@@ -144,7 +146,7 @@ input[type="submit"]:hover {
     }
 
     .container-geral {
-        top: 56%;
+        top: 60%;
     }
 
     h1 {
@@ -169,7 +171,7 @@ input[type="submit"]:hover {
 
 @media(min-width: 1024px) {
     .barra {
-        height: 5rem;
+        height: 6rem;
 
     }
 
@@ -179,12 +181,21 @@ input[type="submit"]:hover {
     }
 
     .container-geral {
-        width: 70%;
-        padding: 2% 6% 2% 5%;
+        /* width: 70%; */
+        /* padding: 2% 6% 2% 5%; */
+        top: 55%;
+        padding-top: 10%;
         
     }
 
     h1{
 
+    }
+
+    @media(min-height:760px){
+        .container-geral{
+            width: 60%;
+            padding-top: 5%;
+        }
     }
 }
