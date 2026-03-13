@@ -17,9 +17,12 @@
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_back" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
-<body >
+<body>
 
     <header class="barra">
 
@@ -29,8 +32,8 @@
     </header>
 
     <span class="material-symbols-outlined voltar">
-            arrow_back
-        </span>
+        arrow_back
+    </span>
 
     <!-- container geral do conteúdo -->
     <section class="container-geral">
@@ -40,7 +43,7 @@
         </span> -->
 
         <!-- título do container -->
-         <h1>Cadastro</h1>
+        <h1>Cadastro</h1>
         <p>Cadastre-se agora para ficar por dentro das atividades do clube!</p>
 
         <!-- Formulário -->
@@ -64,7 +67,12 @@
 
             <div class="input"><label for="senha"></label>
                 <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                <i id="olho-fechado" class="fa-solid fa-eye-slash senha-oculta"></i>
+                <i id="olho-aberto" class="fa-solid fa-eye senha-oculta" style=display:none;></i>
+
             </div>
+
+            
 
             <input type="submit" value="Cadastrar">
 
@@ -73,10 +81,8 @@
 
     </section>
 
-    <!-- Rodapé -->
-    <!-- <footer class="footer">
-        <p>teste</p>
-    </footer> -->
+        <script src="/js/cadastro-login.js"></script>
+
 
 </body>
 

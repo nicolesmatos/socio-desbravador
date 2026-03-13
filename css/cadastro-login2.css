@@ -67,14 +67,23 @@ form {
     
 }
 
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    position: relative;
+}
 
 input {
+
+    
     padding: 2vh;
     /* margin: 2vh; */
     width: 100%;
     border-radius: 1.5vh;
     border: solid 1px #e99c58;
     font-size: 2vh;
+    
 }
 
 input:focus {
@@ -106,6 +115,22 @@ input[type="submit"]:hover {
 .link-login:hover{
      color: #e99c58;
 }
+
+/* i.fa-solid.senha-oculta{
+    position: absolute;
+    padding: 2vh;
+    right: 15%;
+    color: var(--titulo-verde-escuro);
+
+} */
+
+.senha-oculta {
+    position: absolute;
+    align-self: center;
+    right: 2vh;
+}
+
+
 
 
 @media(min-width:760px){
@@ -147,4 +172,6 @@ input[type="submit"]:hover {
     input{
         padding: 3vh;
     }
+
+    
 }
